@@ -1,2 +1,5 @@
 # TheWebDeveloperBootcamp2022
-Repository to be used for study on The Web Developer Bootcamp 2022 course on Udemy platform.
+The Web Developer Bootcamp 2022 on Udemy platform by Colt Steele.
+
+For more details:
+https://www.udemy.com/course/the-web-developer-bootcamp/?src=sac&kw=the+web+develop
