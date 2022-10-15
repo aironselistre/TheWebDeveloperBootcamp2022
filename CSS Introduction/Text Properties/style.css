@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: cornflowerblue dashed underline overline;
+  letter-spacing: 30px;
+  font-size: 100px;
+  /* Choose one fonte family or a entire collection based on the system font availability */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}

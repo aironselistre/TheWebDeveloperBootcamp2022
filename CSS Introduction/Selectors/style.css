@@ -1,0 +1,91 @@
+/* * {
+  color: slategray;
+  background-color: whitesmoke;
+}*/
+
+/* element selector */
+body {
+  color: #e5e5e5;
+}
+
+/* element selector */
+button {
+  font-size: 15;
+  background-color: #fca311;
+}
+
+/* combined selector */
+h1,
+h2 {
+  color: midnightblue;
+}
+
+/* id selector */
+#signup {
+  background-color: #ffb703;
+  color: #14213d;
+}
+
+/* element selector */
+span {
+  color: #000000;
+}
+
+/* element selector */
+p {
+  color: #000000;
+}
+
+/* class selector */
+.tag {
+  background-color: #3d5a80;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* descendant selector */
+.post a {
+  color: #3a86ff;
+}
+
+/* descendant selector */
+footer a {
+  color: #3d5a80;
+}
+
+/* adjacent selector */
+input + button {
+  background-color: #3a86ff;
+}
+
+/* attribute selector */
+input[type="number"] {
+  color: #3a86ff;
+}
+
+/* pseudo-class selector */
+button:hover {
+  background-color: #14213d;
+  color: #ffffff;
+}
+
+/* pseudo-class selector */
+button:active {
+  background-color: #fca311;
+  color: #14213d;
+}
+
+/* pseudo-class selector */
+a:hover {
+  color: blue;
+}
+
+/* pseudo elements selector */
+h2::first-letter {
+  font-size: 40px;
+}
+
+/* pseudo elements selector */
+p::selection {
+  background-color: #ffb703;
+}

@@ -1,0 +1,17 @@
+h1 {
+  color: cornflowerblue;
+}
+
+h2 {
+  color: gray;
+}
+
+p {
+  color: black;
+  background-color: #FFFFFF
+}
+
+button {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}

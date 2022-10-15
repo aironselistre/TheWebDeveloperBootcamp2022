@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 300px;
+  background-color: azure;
+  display: inline-block;
+}
+
+p {
+  color: #e5e5e5;
+}
+
+#one {
+  background-color: #023e8a;
+  border-width: 7px;
+  border-color: #0077b6;
+  border-style: groove;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+#two {
+  background-color: #0096c7;
+  border-width: 7px;
+  border-color: #00b4d8;
+  border-style: solid;
+  border-radius: 40%;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+#three {
+  background-color: #1982c4;
+  border-width: 7px;
+  border-color: #90e0ef;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 30px;
+}
