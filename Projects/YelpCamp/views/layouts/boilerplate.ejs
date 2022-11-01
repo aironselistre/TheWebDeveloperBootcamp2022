@@ -30,4 +30,28 @@
   </body>
 </html>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem inventore dicta molestiae, consequatur ex quidem ipsam quaerat commodi maxime autem quas delectus dignissimos ea nihil eaque voluptatibus alias veniam!
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    "use strict";
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll(".validated-form");
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(function (form) {
+      form.addEventListener(
+        "submit",
+        function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    });
+  })();
+</script>
